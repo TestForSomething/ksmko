@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 //
 client.on('ready', () => {
-     client.user.setActivity("Soon, By Topy",{type: 'WATCHING'});
+     client.user.setActivity("My Dad Topy",{type: 'WATCHING'});
 
 });
 ///chess///
