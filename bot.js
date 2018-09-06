@@ -11,6 +11,53 @@ client.on('ready', () => {
      client.user.setActivity("My Dad Topy",{type: 'WATCHING'});
 
 });
+///hackgame///
+
+//نسخة جاكيو المطورة حقوق كودز فقط
+ client.on('message', message => { //
+    if (message.content.startsWith("+hack")) {
+  if(!message.channel.guild) return message.reply(' ');//
+      if (message.author.bot) return//
+           message.delete();//
+             let args = message.content.split(' ').slice(1);//
+                   let virusname = args.join(' ');//
+                 if (virusname < 1) {////
+                     return message.channel.send("** Mention the Target😈 ** ");//
+                                     }//
+                 message.channel.send({embed: new Discord.RichEmbed().setTitle('Loading ' + virusname + "...").setColor(0xFF0000)}).then(function(m) {
+             setTimeout(function() {
+               m.edit({embed: new Discord.RichEmbed().setTitle(`** Loading  [▓] 1%**`).setColor(0xFF0000)})
+             }, 5500)//
+             setTimeout(function() {
+                m.edit({embed: new Discord.RichEmbed().setTitle(`** Loading [▓▓▓▓] 25%**`).setColor(0xFF0000)})
+              }, 10500)//
+              setTimeout(function() {
+                 m.edit({embed: new Discord.RichEmbed().setTitle(`** Loading [▓▓▓▓▓▓▓▓] 50%**`).setColor(0xFF0000)})
+               }, 15500)//
+               setTimeout(function() {
+                  m.edit({embed: new Discord.RichEmbed().setTitle(`** Loading [▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 75%**`).setColor(0xFF0000)})
+                }, 25500)//
+           setTimeout(function() {
+               m.edit({embed: new Discord.RichEmbed().setTitle(`** Hacking Done [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100%**`).setColor(0xFF0000)})
+             }, 30500)//
+                setTimeout(function() {
+               m.edit({embed: new Discord.RichEmbed().setTitle(`** ..Loging into the Account** `).setColor(0xFF0000)})
+             }, 40500)//
+                setTimeout(function() {
+               m.edit({embed: new Discord.RichEmbed().setTitle(`** ..Saving Data** `).setColor(0xFF0000)})
+             }, 45500)//
+                setTimeout(function() {
+               m.edit({embed: new Discord.RichEmbed().setTitle(`** ..Uploading Data** `).setColor(0xFF0000)})
+             }, 50500)//
+              setTimeout(function() {
+               m.delete()//
+           }, 55000)//
+             setTimeout(function() {
+               message.channel.send('** 😈  __Done Hacking__ **').then(msg => msg.delete(25000));
+           }, 60500)//
+           });//
+         }//
+ });//
 ///ReactionRole////
 
 
