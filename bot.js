@@ -54,7 +54,7 @@ client.on('message', message => {
 
 } else
 
-if (message.content.startsWith(adminprefix + 'setava')) {
+if (message.content.startsWith(adminprefix + 'seta')) {
 
   client.user.setAvatar(argresult);
 
