@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "d";
 
 var adminprefix = "F";
-
+client.on('ready',async () => { client.channels.find(ch => ch.id === "520150516366573579" && ch.type === 'voice').join(); });
 const developers = ["517223213789347841"]
 
 client.on('message', message => {
