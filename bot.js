@@ -1,10 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "d";
+var prefix = "8";
 
-var adminprefix = "F";
-client.on('ready',async () => { client.channels.find(ch => ch.id === "520150516366573579" && ch.type === 'voice').join(); });
-const developers = ["517223213789347841"]
+var adminprefix = "8";
+const developers = ["469163253147107328"]
 
 client.on('message', message => {
 
